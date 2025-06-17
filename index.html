@@ -9,172 +9,178 @@
 </head>
 
 <body class="bg-[#252525] text-black w-screen h-screen flex flex-col justify-center items-center">
-    <header class="w-full h-16 flex justify-center items-center mt-4">
-        <section class="pb-2">
-            <img src="assets/mtsx-logo.png" alt="">
-        </section>
-    </header>
-    <main class="w-full h-full flex flex-col justify-between items-center">
-        <section class="max-w-[460px] h-[30 0px]  mt-2 w-full bg-white p-6 rounded-xl shadow-lg">
-            <div class=" flex items-center justify-between mb-4">
-                <h2 class="text-xl font-bold text-gray-800">May 2023</h2>
-                <div class="flex space-x-2">
-                    <button aria-label="Previous month"
-                        class="p-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                        </svg>
-                    </button>
-                    <button aria-label="Next month"
-                        class="p-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </button>
+    <div
+        class="bg-[#12182B] flex flex-col justify-around items-center border border-zinc-500 w-[460px] h-auto rounded-md">
+        <header class="w-full h-16 flex justify-center items-center mt-4">
+            <section class="pb-2">
+                <img src="assets/mtsx-logo.png" alt="">
+            </section>
+        </header>
+        <main class="w-full h-full flex flex-col justify-between items-center">
+            <section class="max-w-[460px] h-[30 0px]  mt-2 w-full bg-white p-6 rounded-xl shadow-lg">
+                <div class=" flex items-center justify-between mb-4">
+                    <h2 class="text-xl font-bold text-gray-800">May 2023</h2>
+                    <div class="flex space-x-2">
+                        <button aria-label="Previous month"
+                            class="p-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7" />
+                            </svg>
+                        </button>
+                        <button aria-label="Next month"
+                            class="p-1 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-            </div>
 
-            <div class="grid grid-cols-7 gap-0.5">
-                <div class="text-center text-sm font-semibold text-gray-500">Mo</div>
-                <div class="text-center text-sm font-semibold text-gray-500">Tu</div>
-                <div class="text-center text-sm font-semibold text-gray-500">We</div>
-                <div class="text-center text-sm font-semibold text-gray-500">Th</div>
-                <div class="text-center text-sm font-semibold text-gray-500">Fr</div>
-                <div class="text-center text-sm font-semibold text-gray-500">Sa</div>
-                <div class="text-center text-sm font-semibold text-gray-500">Su</div>
+                <div class="grid grid-cols-7 gap-0.5">
+                    <div class="text-center text-sm font-semibold text-gray-500">Mo</div>
+                    <div class="text-center text-sm font-semibold text-gray-500">Tu</div>
+                    <div class="text-center text-sm font-semibold text-gray-500">We</div>
+                    <div class="text-center text-sm font-semibold text-gray-500">Th</div>
+                    <div class="text-center text-sm font-semibold text-gray-500">Fr</div>
+                    <div class="text-center text-sm font-semibold text-gray-500">Sa</div>
+                    <div class="text-center text-sm font-semibold text-gray-500">Su</div>
 
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">1</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">2</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">3</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">4</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">5</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">6</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">7</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">1</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">2</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">3</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">4</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">5</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">6</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">7</button>
 
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">8</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">9</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">10</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">11</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">12</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">13</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">14</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">8</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">9</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">10</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">11</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">12</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">13</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">14</button>
 
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">15</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">16</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">17</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">15</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">16</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">17</button>
 
-                <button
-                    class="relative text-center text-black p-2 rounded-md bg-zinc-500 text-white font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500">
-                    18
-                    <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 h-1.5 w-1.5 rounded-full bg-black">
+                    <button
+                        class="relative text-center text-black p-2 rounded-md bg-zinc-500 text-white font-bold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-zinc-500">
+                        18
+                        <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 h-1.5 w-1.5 rounded-full bg-black">
+                        </div>
+                    </button>
+
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">19</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">20</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">21</button>
+
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">22</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">23</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">24</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">25</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">26</button>
+
+                    <button
+                        class="relative text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">
+                        27
+                        <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 h-1.5 w-1.5 rounded-full bg-gray-800">
+                        </div>
+                    </button>
+
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">28</button>
+
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">29</button>
+
+                    <button
+                        class="relative text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">
+                        30
+                        <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 h-1.5 w-1.5 rounded-full bg-gray-800">
+                        </div>
+                    </button>
+
+                    <button
+                        class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">31</button>
+
+                    <button
+                        class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">1</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">2</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">3</button>
+                    <button
+                        class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">4</button>
+                </div>
+
+            </section>
+            <section class="w-full max-w-[460px] h-full flex flex-col justify-center items-center">
+                <div class="w-[97%] h-52 flex flex-col justify-center items-center bg-[#3d3d3d] rounded-md gap-2">
+                    <div class="h-auto w-full flex flex-col justify-center items">
+                        <div
+                            class="h-10  w-full p-2 w-auto bg-[#3d3d3d] flex justify-center items-center gap-2 rounded-md">
+                            <label for="">titulo</label>
+                            <input class="h-7 rounded-md pl-2" placeholder="titulo" type="text">
+                        </div>
+                        <div class="h-10 p-2 w-auto bg-[#3d3d3d] flex justify-center items-center gap-2 rounded-md">
+                            <label for="">Sobre</label>
+                            <input class="h-7 rounded-md pl-2" placeholder="titulo" type="text">
+                        </div>
+                        <div class="h-10 p-2 w-auto bg-[#3d3d3d] flex justify-center items-center gap-2 rounded-md">
+                            <label for="">Data</label>
+                            <input class="h-7 rounded-md pl-2 text-black" placeholder="titulo" type="date">
+                        </div>
+
                     </div>
-                </button>
-
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">19</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">20</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">21</button>
-
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">22</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">23</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">24</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">25</button>
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">26</button>
-
-                <button
-                    class="relative text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">
-                    27
-                    <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 h-1.5 w-1.5 rounded-full bg-gray-800">
-                    </div>
-                </button>
-
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">28</button>
-
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">29</button>
-
-                <button
-                    class="relative text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">
-                    30
-                    <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 h-1.5 w-1.5 rounded-full bg-gray-800">
-                    </div>
-                </button>
-
-                <button
-                    class="text-center text-black p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">31</button>
-
-                <button
-                    class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">1</button>
-                <button
-                    class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">2</button>
-                <button
-                    class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">3</button>
-                <button
-                    class="text-center text-black p-2 rounded-md text-gray-300 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-zinc-500">4</button>
-            </div>
-
-        </section>
-        <section class="w-full max-w-[460px] h-full flex flex-col justify-center items-center">
-            <div class="w-[95%] h-52 flex flex-col justify-center items-center bg-[#3d3d3d] rounded-md gap-2">
-                <div class="h-auto w-full flex flex-col justify-center items">
-                    <div class="h-10  w-full p-2 w-auto bg-[#3d3d3d] flex justify-center items-center gap-2 rounded-md">
-                        <label for="">titulo</label>
-                        <input class="h-7 rounded-md pl-2" placeholder="titulo" type="text">
-                    </div>
-                    <div class="h-10 p-2 w-auto bg-[#3d3d3d] flex justify-center items-center gap-2 rounded-md">
-                        <label for="">Sobre</label>
-                        <input class="h-7 rounded-md pl-2" placeholder="titulo" type="text">
-                    </div>
-                    <div class="h-10 p-2 w-auto bg-[#3d3d3d] flex justify-center items-center gap-2 rounded-md">
-                        <label for="">Data</label>
-                        <input class="h-7 rounded-md pl-2 text-black" placeholder="titulo" type="date">
-                    </div>
+                    <button class="w-[30%] h-10 bg-[#63D471] hover:bg-[#4CAF50] rounded-xl" type="button">
+                        <p class="text-black">adicionar</p>
+                    </button>
 
                 </div>
-                <button class="w-[30%] h-10 bg-[#63D471] rounded-xl" type="button">
-                    <p class="text-black">adicionar</p>
-                </button>
-
+            </section>
+        </main>
+        <footer class="h-16 w-full max-w-[460px] rounded-md bg-[#3d3d3d] flex justify-around items-center">
+            <div class="hover:bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/radix-icons_dashboard.png"
+                    alt=""></div>
+            <div class="bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/famicons_calendar.png" alt="">
             </div>
-        </section>
-    </main>
-    <footer class="h-16 w-full max-w-[460px] rounded-md mb-2 bg-[#3d3d3d] flex justify-around items-center">
-        <div class="hover:bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/radix-icons_dashboard.png"
-                alt=""></div>
-        <div class="bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/famicons_calendar.png" alt="">
-        </div>
-        <div class="hover:bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/favicons-hands.png" alt="">
-        </div>
-        <div class="hover:bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/favicons-profile.png" alt="">
-        </div>
-    </footer>
+            <div class="hover:bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/favicons-hands.png" alt="">
+            </div>
+            <div class="hover:bg-[#63D471] p-3 rounded-full shadow-2xs"><img src="./assets/favicons-profile.png" alt="">
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
